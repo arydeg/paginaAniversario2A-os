@@ -3,15 +3,15 @@
 var promedio = localStorage.getItem("prom");
 var titulo = document.getElementById("titulo");
 titulo.innerHTML = "Tu puntaje es de: " + promedio;
-var texto2 = document.getElementById("texto2");
+var texto = document.getElementById("texto");
 if(promedio >= 7){
-	texto2.innerHTML = `
+	texto.innerHTML = `
 	FELICITACIONES BEBE, TE AMO MUCHISIMO Y PASATE ESTA PRUEBA!!!
 	<br>
 	Te extraño una banda y cuento los dias para verte <3
 	`;
 }else{
-	texto2.innerHTML = `
+	texto.innerHTML = `
 	Na gorda malisimo, volve a intentar que ya te estoy por abandonar
 	`;
 }

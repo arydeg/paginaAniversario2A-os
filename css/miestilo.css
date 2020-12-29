@@ -51,6 +51,14 @@ h2#txtquiensoy{
 	border:none;
 }
 
+#titulo{
+	font-size:64px;
+}
+
+#texto{
+	font-size:24px;
+}
+
 input[type=submit]{
 	color:red;
 }
