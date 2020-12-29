@@ -17,7 +17,7 @@ body {
 section#seccion-principal{
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-top: 7%;
+	margin-top: 10%;
 	color: lightgrey;
 	font-family: 'JetBrains Mono', monospace;
 	text-align: center;
@@ -41,6 +41,14 @@ h2#txtquiensoy{
 	padding-right: 15%;
 	padding-left:30%;
 	font-size: 1.2em;
+}
+
+.btn{
+	font-size: 18px;
+	margin:50px;
+	width:50px;
+	height:50px;
+	border:none;
 }
 
 input[type=submit]{
