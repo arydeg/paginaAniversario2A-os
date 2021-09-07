@@ -3,8 +3,7 @@ body {
   background-image: url("../fotos/wallpaper3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  color: black;
-  text-align: center;
+  color:lightgrey;
 }
 
 #titulo{
@@ -29,7 +28,6 @@ h2#txtquiensoy{
 	padding-left:15%;
 	padding-right: 15%;
 	font-size: 1.4em;
-	color:lightgrey;
 }
 
 .imgFloatL{
